@@ -121,6 +121,9 @@ Handle *gspGetSessionHandle(void);
 /// Returns true if the application currently has GPU rights.
 bool gspHasGpuRight(void);
 
+void* gspGetSharedMem(void);
+u8 gspGetClientId(void);
+
 /**
  * @brief Presents a buffer to the specified screen.
  * @param screen Screen ID (see \ref GSP_SCREEN_TOP and \ref GSP_SCREEN_BOTTOM)
